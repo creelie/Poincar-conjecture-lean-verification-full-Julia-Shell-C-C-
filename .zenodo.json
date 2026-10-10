@@ -1,0 +1,55 @@
+{
+  "title": "The Poincaré conjecture in Lean 4: the frenzymath formalization, built and checked",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Zhang, Zhiyuan"},
+    {"name": "Delaval, Axel"},
+    {"name": "Chen, Leheng"},
+    {"name": "Chen, Jinxuan"},
+    {"name": "Xu, Jie"},
+    {"name": "Liao, Yuxuan"},
+    {"name": "Jiang, Jiedong"},
+    {"name": "Liu, Chunlei"},
+    {"name": "Dong, Bin"}
+  ],
+  "contributors": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "orcid": "0000-0003-0466-750X",
+      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India",
+      "type": "DataCurator"
+    }
+  ],
+  "description": "<p>A complete Lean 4 and Mathlib formalization of the smooth and topological Poincaré theorems, following Morgan and Tian's account of the Hamilton–Perelman proof, copied unchanged from frenzymath/PoincareConjecture at commit 62db01a (Apache-2.0) and described in arXiv:2610.08329 by its authors, who are the creators of this record. The theorems state that every compact, simply connected 3-manifold without boundary is homeomorphic to the unit sphere of ℝ⁴, and diffeomorphic to it when smooth.</p><p>The archive adds an independent check: a static scan of all 23,559 proof files (3,061,741 lines) finding no sorry, axiom, native_decide or other escape hatch; a statement audit against the Comparator challenge; a chained CI build with #print axioms and a leanchecker kernel replay; and C, C++, Julia and Python (Regina) checks of the objects in the theorem: the homology of a triangulated 3-sphere, the binary icosahedral group of the Poincaré homology sphere, and Ricci flow on the round 3-sphere.</p>",
+  "keywords": [
+    "Poincaré conjecture",
+    "Ricci flow",
+    "three-manifolds",
+    "Lean 4",
+    "Mathlib",
+    "formal verification"
+  ],
+  "license": "Apache-2.0",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/frenzymath/PoincareConjecture",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "arXiv:2610.08329",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2609.33842",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    }
+  ],
+  "notes": "The formalization is by the creators listed (frenzymath/PoincareConjecture); per-file notices are kept in the Lean files, NOTICE and MODIFICATIONS.md. The checks in verification/ and checks/ were added by Deep Bhattacharjee (d.bhattacharjee@erl-forschung.de; itsdeep@live.com) under the MIT licence."
+}
