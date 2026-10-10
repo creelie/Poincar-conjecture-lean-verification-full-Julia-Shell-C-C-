@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "The formalization is by Zhang et al. Please cite their paper, arXiv:2610.08329, and this archive."
+title: "The Poincaré conjecture in Lean 4: the frenzymath formalization, built and checked"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Zhiyuan
+  - family-names: Delaval
+    given-names: Axel
+  - family-names: Chen
+    given-names: Leheng
+  - family-names: Chen
+    given-names: Jinxuan
+  - family-names: Xu
+    given-names: Jie
+  - family-names: Liao
+    given-names: Yuxuan
+  - family-names: Jiang
+    given-names: Jiedong
+  - family-names: Liu
+    given-names: Chunlei
+  - family-names: Dong
+    given-names: Bin
+version: 1.0.0
+date-released: 2026-10-10
+license: Apache-2.0
+repository-code: "https://github.com/creelie/Poincar-conjecture-lean-verification-full-Julia-Shell-C-C-"
+keywords:
+  - Poincaré conjecture
+  - Ricci flow
+  - Lean 4
+  - formal verification
+abstract: >-
+  A complete Lean 4 and Mathlib formalization of the smooth and topological Poincaré
+  theorems by Zhang, Delaval, Chen, Chen, Xu, Liao, Jiang, Liu and Dong (frenzymath,
+  arXiv:2610.08329), copied unchanged, with an independent check added by Deep
+  Bhattacharjee: a static scan, a statement audit, a CI build with the axioms and a
+  kernel replay, and C, C++, Julia and Python checks.
+references:
+  - type: article
+    title: "An AI-Assisted Formalization of the Poincaré Conjecture"
+    authors:
+      - family-names: Zhang
+        given-names: Zhiyuan
+      - name: "et al."
+    year: 2026
+    identifiers:
+      - type: other
+        value: "arXiv:2610.08329"
